@@ -1,6 +1,6 @@
 package packets
 
-import "github.com/anilmisirlioglu/f1-telemetry-go/pkg/env/team"
+import "github.com/shevonkuan/f1-telemetry-go/pkg/env/team"
 
 // This packet details the players currently in a multiplayer lobby.
 // It details each player’s selected car, any AI involved in the game and also the ready status of each of the participants.

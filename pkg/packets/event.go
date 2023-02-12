@@ -1,8 +1,8 @@
 package packets
 
 import (
-	"github.com/anilmisirlioglu/f1-telemetry-go/pkg/env/infringement"
-	"github.com/anilmisirlioglu/f1-telemetry-go/pkg/env/penalty"
+	"github.com/shevonkuan/f1-telemetry-go/pkg/env/infringement"
+	"github.com/shevonkuan/f1-telemetry-go/pkg/env/penalty"
 )
 
 // This packet gives details of events that happen during the course of a session.

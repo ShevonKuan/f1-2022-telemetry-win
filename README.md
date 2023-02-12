@@ -15,13 +15,13 @@ Telemetry client for F1 Game, written in Go. Supports the F1 UDP 2022 and previo
 
 ```bash
 # latest version (F1 2022)
-go get -u github.com/anilmisirlioglu/f1-telemetry-go@master
+go get -u github.com/shevonkuan/f1-telemetry-go@master
 
 # for F1 2022
-go get -u github.com/anilmisirlioglu/f1-telemetry-go@v1.1.0
+go get -u github.com/shevonkuan/f1-telemetry-go@v1.1.0
 
 # for F1 2020
-go get -u github.com/anilmisirlioglu/f1-telemetry-go@v1.0.0
+go get -u github.com/shevonkuan/f1-telemetry-go@v1.0.0
 ```
 
 ## Quick Start

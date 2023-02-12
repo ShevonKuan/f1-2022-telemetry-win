@@ -1,8 +1,8 @@
 package packets
 
 import (
-	"github.com/anilmisirlioglu/f1-telemetry-go/pkg/env/driver"
-	"github.com/anilmisirlioglu/f1-telemetry-go/pkg/env/team"
+	"github.com/shevonkuan/f1-telemetry-go/pkg/env/driver"
+	"github.com/shevonkuan/f1-telemetry-go/pkg/env/team"
 )
 
 // This is a list of participants in the race. If the vehicle is controlled by AI, then the name will be the driver name.

@@ -6,10 +6,10 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/anilmisirlioglu/f1-telemetry-go/pkg/env/event"
-	"github.com/anilmisirlioglu/f1-telemetry-go/pkg/packets"
-	"github.com/anilmisirlioglu/f1-telemetry-go/pkg/telemetry"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/shevonkuan/f1-telemetry-go/pkg/env/event"
+	"github.com/shevonkuan/f1-telemetry-go/pkg/packets"
+	"github.com/shevonkuan/f1-telemetry-go/pkg/telemetry"
 )
 
 var wheelOrderArr = []string{"rl", "rr", "fl", "fr"}
