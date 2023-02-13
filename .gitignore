@@ -12,3 +12,4 @@ grafana-*/
 prometheus-*/
 data/
 .vscode
+*.zip

@@ -2671,7 +2671,7 @@
             }
         }
     ],
-    "refresh": false,
+    "refresh": "200ms",
     "schemaVersion": 37,
     "style": "dark",
     "tags": [],
@@ -2795,8 +2795,8 @@
         ]
     },
     "time": {
-        "from": "2023-02-13T09:07:49.957Z",
-        "to": "2023-02-13T09:08:35.101Z"
+        "from": "now-15s",
+        "to": "now"
     },
     "timepicker": {
         "refresh_intervals": [
