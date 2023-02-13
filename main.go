@@ -12,75 +12,64 @@ import (
 func packetDataHandler(p *packets.PacketData, c *telemetry.Client, startTime *time.Time) {
 	// handler
 	timeCost := 0 * time.Second
+	p.Time = &timeCost
 	c.OnMotionPacket(func(packet *packets.PacketMotionData) {
 		car := packet.Self()
 		timeCost = time.Since(*startTime)
-		p.Time = &timeCost
 		p.PacketMotionData = &car
 	})
 	c.OnSessionPacket(func(packet *packets.PacketSessionData) {
 		timeCost = time.Since(*startTime)
-		p.Time = &timeCost
 		p.PacketSessionData = packet
 	})
 	c.OnLapPacket(func(packet *packets.PacketLapData) {
 		car := packet.Self()
 		timeCost = time.Since(*startTime)
-		p.Time = &timeCost
 		p.PacketLapData = &car
 	})
 	c.OnEventPacket(func(packet *packets.PacketEventData) {
 		car := packet.EventCodeString()
 		timeCost = time.Since(*startTime)
-		p.Time = &timeCost
 		p.PacketEventData = &car
 	})
 	c.OnParticipantsPacket(func(packet *packets.PacketParticipantsData) {
 		car := packet.Self()
 		timeCost = time.Since(*startTime)
-		p.Time = &timeCost
 		p.PacketParticipantsData = &car
 	})
 	c.OnCarSetupPacket(func(packet *packets.PacketCarSetupData) {
 		car := packet.Self()
 		timeCost = time.Since(*startTime)
-		p.Time = &timeCost
 		p.PacketCarSetupData = &car
 	})
 	c.OnCarStatusPacket(func(packet *packets.PacketCarStatusData) {
 		car := packet.Self()
 		timeCost = time.Since(*startTime)
-		p.Time = &timeCost
 		p.PacketCarStatusData = &car
 	})
 	c.OnFinalClassificationPacket(func(packet *packets.PacketFinalClassificationData) {
 		car := packet.Self()
 		timeCost = time.Since(*startTime)
-		p.Time = &timeCost
 		p.PacketFinalClassificationData = &car
 	})
 	c.OnLobbyInfoPacket(func(packet *packets.PacketLobbyInfoData) {
 		car := packet.Self()
 		timeCost = time.Since(*startTime)
-		p.Time = &timeCost
 		p.PacketLobbyInfoData = &car
 	})
 	c.OnCarDamagePacket(func(packet *packets.PacketCarDamageData) {
 		car := packet.Self()
 		timeCost = time.Since(*startTime)
-		p.Time = &timeCost
 		p.PacketCarDamageData = &car
 	})
 	c.OnSessionHistoryPacket(func(packet *packets.PacketSessionHistoryData) {
 		timeCost = time.Since(*startTime)
-		p.Time = &timeCost
 		p.PacketSessionHistoryData = packet
 	})
 
 	c.OnCarTelemetryPacket(func(packet *packets.PacketCarTelemetryData) {
 		car := packet.Self()
 		timeCost = time.Since(*startTime)
-		p.Time = &timeCost
 		p.PacketCarTelemetryData = &car
 	})
 	// start
