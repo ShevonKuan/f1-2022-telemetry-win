@@ -8,3 +8,7 @@ f1-telemetry-go.exe
 .output
 .env
 /frontend/dist
+grafana-*/
+prometheus-*/
+data/
+.vscode

@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"os/exec"
 	"time"
 
 	"github.com/shevonkuan/f1-telemetry-go/pkg/packets"
@@ -9,90 +10,54 @@ import (
 	"github.com/shevonkuan/f1-telemetry-go/server"
 )
 
-func packetDataHandler(p *packets.PacketData, c *telemetry.Client, startTime *time.Time) {
-	// handler
-	timeCost := 0 * time.Second
-	p.Time = &timeCost
-	c.OnMotionPacket(func(packet *packets.PacketMotionData) {
-		car := packet.Self()
-		timeCost = time.Since(*startTime)
-		p.PacketMotionData = &car
-	})
-	c.OnSessionPacket(func(packet *packets.PacketSessionData) {
-		timeCost = time.Since(*startTime)
-		p.PacketSessionData = packet
-	})
-	c.OnLapPacket(func(packet *packets.PacketLapData) {
-		car := packet.Self()
-		timeCost = time.Since(*startTime)
-		p.PacketLapData = &car
-	})
-	c.OnEventPacket(func(packet *packets.PacketEventData) {
-		car := packet.EventCodeString()
-		timeCost = time.Since(*startTime)
-		p.PacketEventData = &car
-	})
-	c.OnParticipantsPacket(func(packet *packets.PacketParticipantsData) {
-		car := packet.Self()
-		timeCost = time.Since(*startTime)
-		p.PacketParticipantsData = &car
-	})
-	c.OnCarSetupPacket(func(packet *packets.PacketCarSetupData) {
-		car := packet.Self()
-		timeCost = time.Since(*startTime)
-		p.PacketCarSetupData = &car
-	})
-	c.OnCarStatusPacket(func(packet *packets.PacketCarStatusData) {
-		car := packet.Self()
-		timeCost = time.Since(*startTime)
-		p.PacketCarStatusData = &car
-	})
-	c.OnFinalClassificationPacket(func(packet *packets.PacketFinalClassificationData) {
-		car := packet.Self()
-		timeCost = time.Since(*startTime)
-		p.PacketFinalClassificationData = &car
-	})
-	c.OnLobbyInfoPacket(func(packet *packets.PacketLobbyInfoData) {
-		car := packet.Self()
-		timeCost = time.Since(*startTime)
-		p.PacketLobbyInfoData = &car
-	})
-	c.OnCarDamagePacket(func(packet *packets.PacketCarDamageData) {
-		car := packet.Self()
-		timeCost = time.Since(*startTime)
-		p.PacketCarDamageData = &car
-	})
-	c.OnSessionHistoryPacket(func(packet *packets.PacketSessionHistoryData) {
-		timeCost = time.Since(*startTime)
-		p.PacketSessionHistoryData = packet
-	})
-
-	c.OnCarTelemetryPacket(func(packet *packets.PacketCarTelemetryData) {
-		car := packet.Self()
-		timeCost = time.Since(*startTime)
-		p.PacketCarTelemetryData = &car
-	})
-	// start
-	c.Run()
+// Start Grafana
+func grafanaHandler() {
+	log.Println("Start Grafana...")
+	cmd := exec.Command("./grafana-9.3.6/bin/grafana-server.exe", "--homepath", "./grafana-9.3.6", "--config", "")
+	_, err := cmd.CombinedOutput()
+	if err != nil {
+		log.Fatal("Error:", err)
+		return
+	}
 }
 
+// Start Prometheus
+func prometheusHandler() {
+	log.Println("Start Prometheus...")
+	cmd := exec.Command("./prometheus-2.37.5.windows-amd64/prometheus.exe", "--config.file=./prometheus/prometheus.yml")
+	_, err := cmd.CombinedOutput()
+	if err != nil {
+		log.Fatal("Error:", err)
+		return
+	}
+}
+
+// Start Server
+func serverStarter(s *server.Server) {
+	s.Start()
+}
 func main() {
+	ch := make(chan struct{})
 	startTime := time.Now()
 	packetData := new(packets.PacketData)
 	client, err := telemetry.NewClientByCustomIpAddressAndPort("0.0.0.0", 20777)
 	if err != nil {
 		log.Fatal(err)
 	}
-	// handler
-	go packetDataHandler(packetData, client, &startTime)
-
 	// server
 	svr := server.Server{
 		BindAddress: "127.0.0.1:8888",
 		DataPoint:   packetData,
+		Client:      client,
 	}
-	svr.Start()
+	// handler
+	go server.PacketDataHandler(packetData, client, &startTime)
+	go serverStarter(&svr)
 
+	go prometheusHandler()
+	go grafanaHandler()
+
+	<-ch
 	// for {
 	// 	if packetData.Time != nil {
 	// 		jsonBytes, err := json.Marshal(packetData)
