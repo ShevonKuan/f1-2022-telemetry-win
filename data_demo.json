@@ -1,0 +1,1348 @@
+{
+    "Time": 5639701900,
+    "PacketMotionData": {
+        "WorldPositionX": -110.936844,
+        "WorldPositionY": 97.136375,
+        "WorldPositionZ": 466.55707,
+        "WorldVelocityX": -60.985184,
+        "WorldVelocityY": -1.5945082,
+        "WorldVelocityZ": 33.68036,
+        "WorldForwardDirX": -28673,
+        "WorldForwardDirY": -742,
+        "WorldForwardDirZ": 15841,
+        "WorldRightDirX": -15826,
+        "WorldRightDirY": -764,
+        "WorldRightDirZ": -28681,
+        "GForceLateral": -0.0068723937,
+        "GForceLongitudinal": -0.52564126,
+        "GForceVertical": 0.108646855,
+        "Yaw": -1.0664657,
+        "Pitch": -0.03111291,
+        "Roll": 0.023334032
+    },
+    "PacketSessionData": {
+        "Header": {
+            "PacketFormat": 2022,
+            "GameMajorVersion": 1,
+            "GameMinorVersion": 5,
+            "PacketVersion": 1,
+            "PacketID": 1,
+            "SessionUID": 13954627007994167010,
+            "SessionTime": 74.44451,
+            "FrameIdentifier": 3497,
+            "PlayerCarIndex": 0,
+            "SecondaryPlayerCarIndex": 255
+        },
+        "Weather": 0,
+        "TrackTemperature": 35,
+        "AirTemperature": 28,
+        "TotalLaps": 1,
+        "TrackLength": 5408,
+        "SessionType": 13,
+        "TrackID": 3,
+        "Formula": 0,
+        "SessionTimeLeft": 0,
+        "SessionDuration": 600,
+        "PitSpeedLimit": 80,
+        "GamePaused": 0,
+        "IsSpectating": 0,
+        "SpectatorCarIndex": 255,
+        "SliProNativeSupport": 0,
+        "NumMarshalZones": 17,
+        "MarshalZones": [
+            {
+                "ZoneStart": 0.9542952,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0.107558034,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0.17273326,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0.2537725,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0.32061338,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0.35241243,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0.37812972,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0.41207695,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0.44532412,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0.48343608,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0.513276,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0.6258069,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0.6610945,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0.69359267,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0.75002277,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0.80238354,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0.8905847,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0,
+                "ZoneFlag": 0
+            },
+            {
+                "ZoneStart": 0,
+                "ZoneFlag": 0
+            }
+        ],
+        "SafetyCarStatus": 0,
+        "NetworkGame": 0,
+        "NumWeatherForecastSamples": 0,
+        "WeatherForecastSamples": [
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            },
+            {
+                "SessionType": 0,
+                "TimeOffset": 0,
+                "Weather": 0,
+                "TrackTemperature": 0,
+                "TrackTemperatureChange": 0,
+                "AirTemperature": 0,
+                "AirTemperatureChange": 0,
+                "RainPercentage": 0
+            }
+        ],
+        "ForecastAccuracy": 0,
+        "AIDifficulty": 0,
+        "SeasonLinkIdentifier": 0,
+        "WeekendLinkIdentifier": 0,
+        "SessionLinkIdentifier": 0,
+        "PitStopWindowIdealLap": 0,
+        "PitStopWindowLatestLap": 0,
+        "PitStopRejoinPosition": 0,
+        "SteeringAssist": 0,
+        "BreakingAssist": 0,
+        "GearboxAssist": 0,
+        "PitAssist": 0,
+        "PitReleaseAssist": 0,
+        "ERSAssist": 0,
+        "DRSAssist": 0,
+        "DynamicRacingLine": 0,
+        "DynamicRacingLineType": 0,
+        "GameMode": 0,
+        "RuleSet": 0,
+        "TimeOfDay": 0,
+        "SessionLength": 0
+    },
+    "PacketLapData": {
+        "LastLapTimeInMS": 0,
+        "CurrentLapTimeInMS": 0,
+        "Sector1TimeInMS": 0,
+        "Sector2TimeInMS": 0,
+        "LapDistance": -751.3125,
+        "TotalDistance": -751.3125,
+        "SafetyCarDelta": -0,
+        "CarPosition": 1,
+        "CurrentLapNum": 1,
+        "PitStatus": 0,
+        "NumPitStops": 0,
+        "Sector": 2,
+        "CurrentLapInvalid": 0,
+        "Penalties": 0,
+        "Warnings": 0,
+        "NumUnservedDriveThroughPens": 0,
+        "NumUnservedStopGoPens": 0,
+        "GridPosition": 1,
+        "DriverStatus": 1,
+        "ResultStatus": 2,
+        "PitLaneTimerActive": 0,
+        "PitLaneTimeInLaneInMS": 0,
+        "PitStopTimerInMS": 0,
+        "PitStopShouldServePen": 0
+    },
+    "PacketEventData": "BUTN",
+    "PacketParticipantsData": {
+        "AIControlled": 0,
+        "DriverID": 255,
+        "NetworkID": 0,
+        "TeamID": 0,
+        "MyTeam": 0,
+        "RaceNumber": 2,
+        "Nationality": 0,
+        "Name": [
+            86,
+            65,
+            76,
+            86,
+            69,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "YourTelemetry": 1
+    },
+    "PacketCarSetupData": {
+        "FrontWing": 8,
+        "RearWing": 18,
+        "OnThrottle": 80,
+        "OffThrottle": 60,
+        "FrontCamber": -3,
+        "RearCamber": -1.5,
+        "FrontToe": 0.10000001,
+        "RearToe": 0.44,
+        "FrontSuspension": 10,
+        "RearSuspension": 1,
+        "FrontAntiRollBar": 10,
+        "RearAntiRollBar": 1,
+        "FrontSuspensionHeight": 3,
+        "RearSuspensionHeight": 4,
+        "BrakePressure": 100,
+        "BrakeBias": 54,
+        "RearLeftTyrePressure": 21.25,
+        "RearRightTyrePressure": 21.25,
+        "FrontLeftTyrePressure": 23.25,
+        "FrontRightTyrePressure": 23.25,
+        "Ballast": 6,
+        "FuelLoad": 10
+    },
+    "PacketCarTelemetryData": {
+        "Speed": 250,
+        "Throttle": 0,
+        "Steer": -0,
+        "Brake": 0,
+        "Clutch": 0,
+        "Gear": 7,
+        "EngineRPM": 10139,
+        "DRS": 0,
+        "RevLightsPercent": 0,
+        "RevLightsBitValue": 0,
+        "BrakesTemperature": [
+            73,
+            73,
+            106,
+            106
+        ],
+        "TyresSurfaceTemperature": [
+            97,
+            97,
+            97,
+            97
+        ],
+        "TyresInnerTemperature": [
+            97,
+            97,
+            97,
+            97
+        ],
+        "EngineTemperature": 110,
+        "TyresPressure": [
+            21.51152,
+            21.51152,
+            23.536133,
+            23.536133
+        ],
+        "SurfaceType": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "PacketCarStatusData": {
+        "TractionControl": 1,
+        "AntiLockBrakes": 1,
+        "FuelMix": 3,
+        "FrontBrakeBias": 54,
+        "PitLimiterStatus": 0,
+        "FuelInTank": 10,
+        "FuelCapacity": 110,
+        "FuelRemainingLaps": 5.5,
+        "MaxRPM": 13000,
+        "IdleRPM": 3499,
+        "MaxGears": 9,
+        "DRSAllowed": 0,
+        "DRSActivationDistance": 0,
+        "ActualTyreCompound": 18,
+        "VisualTyreCompound": 16,
+        "TyresAgeLaps": 0,
+        "VehicleFIAFlags": 0,
+        "ERSStoreEnergy": 4000000,
+        "ERSDeployMode": 2,
+        "ERSHarvestedThisLapMGUK": 0,
+        "ERSHarvestedThisLapMGUH": 0,
+        "ERSDeployedThisLap": 0,
+        "NetworkPaused": 0
+    },
+    "PacketFinalClassificationData": null,
+    "PacketLobbyInfoData": null,
+    "PacketCarDamageData": {
+        "TyresWear": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "TyresDamage": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "BrakesDamage": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "FrontLeftWingDamage": 0,
+        "FrontRightWingDamage": 0,
+        "RearWingDamage": 0,
+        "FloorDamage": 0,
+        "DiffuserDamage": 0,
+        "SidepodDamage": 0,
+        "DRSFault": 0,
+        "GearBoxDamage": 0,
+        "EngineDamage": 0,
+        "EngineMGUHWear": 0,
+        "EngineESWear": 0,
+        "EngineCEWear": 0,
+        "EngineICEWear": 0,
+        "EngineMGUKWear": 0,
+        "EngineTCWear": 0,
+        "EngineBlown": 0,
+        "EngineSeized": 0
+    },
+    "PacketSessionHistoryData": {
+        "Header": {
+            "PacketFormat": 2022,
+            "GameMajorVersion": 1,
+            "GameMinorVersion": 5,
+            "PacketVersion": 1,
+            "PacketID": 11,
+            "SessionUID": 13954627007994167010,
+            "SessionTime": 74.44451,
+            "FrameIdentifier": 3497,
+            "PlayerCarIndex": 0,
+            "SecondaryPlayerCarIndex": 255
+        },
+        "CarIdx": 13,
+        "NumLaps": 1,
+        "NumTyreStints": 1,
+        "BestLapTimeLapNum": 0,
+        "BestSector1LapNum": 0,
+        "BestSector2LapNum": 0,
+        "BestSector3LapNum": 0,
+        "LapHistoryData": [
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 15
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            },
+            {
+                "LapTimeInMS": 0,
+                "Sector1TimeInMS": 0,
+                "Sector2TimeInMS": 0,
+                "Sector3TimeInMS": 0,
+                "LapValidBitFlags": 0
+            }
+        ],
+        "TyreStintsHistoryData": [
+            {
+                "EndLap": 255,
+                "TyreActualCompound": 18,
+                "TyreVisualCompound": 16
+            },
+            {
+                "EndLap": 0,
+                "TyreActualCompound": 0,
+                "TyreVisualCompound": 0
+            },
+            {
+                "EndLap": 0,
+                "TyreActualCompound": 0,
+                "TyreVisualCompound": 0
+            },
+            {
+                "EndLap": 0,
+                "TyreActualCompound": 0,
+                "TyreVisualCompound": 0
+            },
+            {
+                "EndLap": 0,
+                "TyreActualCompound": 0,
+                "TyreVisualCompound": 0
+            },
+            {
+                "EndLap": 0,
+                "TyreActualCompound": 0,
+                "TyreVisualCompound": 0
+            },
+            {
+                "EndLap": 0,
+                "TyreActualCompound": 0,
+                "TyreVisualCompound": 0
+            },
+            {
+                "EndLap": 0,
+                "TyreActualCompound": 0,
+                "TyreVisualCompound": 0
+            }
+        ]
+    }
+}
