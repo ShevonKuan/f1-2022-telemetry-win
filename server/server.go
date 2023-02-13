@@ -15,8 +15,9 @@ func (p *Server) Start() {
 	r := gin.Default()
 
 	r.Use(func(context *gin.Context) {
-		context.Set("packetData", *p.DataPoint)
+		context.Set("packetData", p.DataPoint)
 	})
 	r.GET("/ws", ws)
+	r.GET("/json", json)
 	r.Run(p.BindAddress)
 }
