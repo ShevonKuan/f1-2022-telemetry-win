@@ -20,7 +20,7 @@ type Server struct {
 var wheelOrderArr = []string{"rl", "rr", "fl", "fr"}
 
 func (p *Server) Start() {
-
+	gin.SetMode(gin.ReleaseMode)
 	r := gin.Default()
 
 	r.Use(func(context *gin.Context) {

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"os/exec"
 	"time"
@@ -17,7 +16,7 @@ func grafanaHandler() {
 	cmd := exec.Command("./grafana-9.3.6/bin/grafana-server.exe", "--homepath", "./grafana-9.3.6", "--config", "")
 	_, err := cmd.CombinedOutput()
 	if err != nil {
-		fmt.Println("Error:", err)
+		log.Fatal("Error:", err)
 		return
 	}
 }
@@ -28,7 +27,7 @@ func prometheusHandler() {
 	cmd := exec.Command("./prometheus-2.37.5.windows-amd64/prometheus.exe", "--config.file=./prometheus/prometheus.yml")
 	_, err := cmd.CombinedOutput()
 	if err != nil {
-		fmt.Println("Error:", err)
+		log.Fatal("Error:", err)
 		return
 	}
 }
