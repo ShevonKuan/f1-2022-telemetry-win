@@ -45,3 +45,9 @@ Or you can download the latest release file and run it.
 ## Docs
 
 If you need more information on the F1 UDP specifications, see the [docs](/docs).
+
+## Acknowledgements
+
+This project is based on code from [f1-telemetry-go](https://github.com/anilmisirlioglu/f1-telemetry-go) by anilmisirlioglu.
+
+Modifications and adaptations for this project by ShevonKuan.
