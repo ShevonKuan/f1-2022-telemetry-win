@@ -173,6 +173,14 @@
       incurred by, or claims asserted against, such Contributor by reason
       of your accepting any such warranty or additional liability.
 
+-----------------------------------------------------------------
+This project is based on code from "f1-telemetry-go" by anilmisirlioglu
+Original repository: https://github.com/anilmisirlioglu/f1-telemetry-go
+Copyright (c) 2021 anilmisirlioglu
+
+Modifications and adaptations for this project by ShevonKuan
+Copyright (c) 2024 ShevonKuan
+
    END OF TERMS AND CONDITIONS
 
    APPENDIX: How to apply the Apache License to your work.
@@ -185,8 +193,6 @@
       file or class name and description of purpose be included on the
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
-
-   Copyright [yyyy] [name of copyright owner]
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
